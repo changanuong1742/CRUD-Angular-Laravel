@@ -1,0 +1,8 @@
+<form action="">
+  <div class="row">
+    <div class="col-3 offset-3" *ngIf="bookForm.value.image.length > 0">
+      <img [src]="bookForm.value.image" class="img-thumbnail">
+    </div>
+  </div>
+  <input type="file" (change)="uploadFile($event)">
+</form>

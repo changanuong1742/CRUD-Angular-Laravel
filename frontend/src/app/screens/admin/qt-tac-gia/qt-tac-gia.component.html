@@ -1,0 +1,33 @@
+<div class="form-group">
+  <label for="">Tìm kiếm</label>
+  <input type="text" class="form-control"
+         [value]="keyword" (keyup)="search($event)">
+</div>
+<br>
+<table class="table table-stripped">
+  <thead>
+  <tr>
+    <th>#</th>
+    <th>Tên Tác Giả</th>
+    <th>Số lượng truyện</th>
+    <th>
+      <a href="javascript:;"
+         class="btn btn-success"
+         routerLink="/admin/tac-gia/tao-moi">Tạo mới</a>
+    </th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let author of authors;index as i">
+    <td>{{i+1}}</td>
+    <td>{{author.name}}</td>
+    <td>
+      <span *ngIf="author.comics != undefined">{{author.comics.length}}</span>
+    </td>
+    <td>
+      <button class="btn btn-info" routerLink="/admin/tac-gia/sua/{{author.id}}">Cập nhật</button>
+      <button class="btn btn-danger" (click)="deleteAuthor(author.id)">Xóa</button>
+    </td>
+  </tr>
+  </tbody>
+</table>

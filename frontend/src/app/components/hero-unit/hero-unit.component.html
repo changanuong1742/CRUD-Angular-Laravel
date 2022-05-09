@@ -1,0 +1,8 @@
+<img [src]="heroData.img" class="img-thumbnail">
+<p><strong>{{heroData.name}}</strong></p>
+<p *ngIf="heroData.skills != undefined && heroData.skills.length > 0">Skills: </p>
+<p>
+    <span *ngFor="let ski of heroData.skills" class="badge text-white bg-warning">{{ski.name}}</span>
+</p>
+<button class="btn  btn-danger" (click)="removeHero()">Xóa</button> 
+<button class="btn  btn-info" (click)="updateHero()">Sửa</button>

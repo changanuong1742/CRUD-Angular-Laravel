@@ -1,0 +1,93 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Truyện Hài"
+    },
+    {
+      "id": 2,
+      "name": "Chuyển Sinh"
+    },
+    {
+      "id": 3,
+      "name": "Cooking 23"
+    },
+    {
+      "id": 4,
+      "name": "Kiếm hiệp 2"
+    },
+    {
+      "name": "Tâm lý",
+      "id": 5
+    },
+    {
+      "name": "Tiên hiệp",
+      "id": 6
+    },
+    {
+      "name": "dã sử",
+      "id": 7
+    }
+  ],
+  "authors": [
+    {
+      "id": 1,
+      "name": "Ngô Tất Tố"
+    },
+    {
+      "id": 2,
+      "name": "Thạch Lam"
+    },
+    {
+      "id": 3,
+      "name": "Nguyên Hồng"
+    }
+  ],
+  "comics": [
+    {
+      "id": 1,
+      "name": "Thực Linh Vương",
+      "status": "Đang tiến hành",
+      "views": 356335,
+      "categoryId": 2,
+      "authorId": 2,
+      "image": "https://firebasestorage.googleapis.com/v0/b/angular-web-11df9.appspot.com/o/Uploads%2F1618251826339?alt=media&token=b6b4e918-409a-4210-ba6c-c8a4b773c113"
+    },
+    {
+      "id": 2,
+      "name": "ĐẦU BẾP TRỨ DANH",
+      "image": "http://st.imageinstant.net/data/comics/123/dau-bep-tru-danh.jpg",
+      "categoryId": 3,
+      "authorId": 1,
+      "status": "Đang tiến hành",
+      "views": 1426604
+    },
+    {
+      "id": 3,
+      "name": "CUỘC CHIẾN ẨM THỰC",
+      "image": "http://st.nhattruyen.com/data/comics/240/cuoc-chien-am-thuc.jpg",
+      "categoryId": 3,
+      "authorId": 1,
+      "status": "Hoàn thành",
+      "views": 20895939
+    },
+    {
+      "id": 4,
+      "name": "TA LUYỆN KHÍ BA NGÀN NĂM",
+      "image": "http://st.nhattruyen.com/data/comics/155/ta-luyen-khi-ba-ngan-nam.png",
+      "categoryId": 1,
+      "authorId": 1,
+      "status": "Đang tiến hành",
+      "views": 20301229
+    },
+    {
+      "id": 5,
+      "name": "TẬN KIỂN MINH THẦN",
+      "image": "http://st.nhattruyen.com/data/comics/58/tan-kien-minh-than.jpg",
+      "categoryId": 1,
+      "authorId": 1,
+      "status": "Đang tiến hành",
+      "views": 84624
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+<ng-container *ngIf="cate != undefined">
+  <h2>Danh mục: {{cate.name}}</h2>
+  <p><strong>Các bộ truyện: </strong></p>
+  <div class="row">
+    <div class="col-4" *ngFor="let co of cate.comics">
+      <img [src]="co.image" class="img-thumbnail">
+      <h3>{{co.name}}</h3>
+    </div>
+  </div>
+</ng-container>
